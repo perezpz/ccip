@@ -7,4 +7,5 @@ src = "src"
 
 remappings = [
   '@chainlink/contracts-ccip/=lib/ccip/contracts/',
+  '@chainlink/contracts/=lib/chainlink/contracts/'
 ]
