@@ -16,6 +16,7 @@ remappings = [
 evm_version = 'paris'
 
 [rpc_endpoints]
+arbitrumSepolia = "${ARBITRUM_SEPOLIA_RPC_URL}"
+avalancheFuji = "${Avalanche_Fuji_RPC_URL}"
 baseSepolia = "${BASE_SEPOLIA_RPC_URL}"
 ethereumSepolia = "${ETHEREUM_SEPOLIA_RPC_URL}"
-arbitrumSepolia = "${ARBITRUM_SEPOLIA_RPC_URL}"
