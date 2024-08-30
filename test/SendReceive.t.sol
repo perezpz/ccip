@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity 0.8.20;
+pragma solidity ^0.8.20;
 
 // Importing necessary components from the Chainlink and Forge Standard libraries for testing.
 import {Test, console, Vm} from "forge-std/Test.sol";
