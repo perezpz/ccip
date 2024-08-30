@@ -106,7 +106,7 @@ contract TransferUSDCTest is Test {
     assertEq(i_usdcToken.balanceOf(address(this)), 1 ether);
 
     uint256 gasUsed = sendMessage(50);
-    uint64 gasLimit = uint64(gasUsed * 100 / 100);
+    uint64 gasLimit = uint64(gasUsed * 110 / 100);
 
     avalancheFujiTransferUSDC.transferUsdc(ethSepoliaNetworkDetails.chainSelector, alice, 1000000, gasLimit);
   }
